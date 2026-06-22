@@ -1,0 +1,11 @@
+# Generally in python there is no array.
+# But commonly a list is a highly flexible version of an array.
+# An Array is a linear data structure used to store multiple values continuous memory locations
+
+1) CONTINUOUS MEMORY: In array items or values are stored ine after another in memory.That's why it is easy to access any value instantly if we know it's index value.The time complexity will be O(1)
+
+2) In Python generally dynamic array is used which has not any fixed size.It is mutable , we can add values , copy or extend it's size later
+
+3) Python lists are referential arrays which means they don't store the actual values but instead store the memory addresses(pointers) of the objects.That's why we can store multiple types of vriable in a single list like int , float and strings
+
+
