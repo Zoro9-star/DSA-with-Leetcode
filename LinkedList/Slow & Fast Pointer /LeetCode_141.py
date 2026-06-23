@@ -17,7 +17,7 @@
 
 
 
-#This part is Only for VS code because it is internally works in LeetCode so we don't need to write it again manually
+#This part is Only for VS code 
 
 class ListNode:
     def __init__(self,val):
@@ -35,6 +35,8 @@ node2.next = node3
 node3.next = node4
 node4.next = node2
 
+
+#This is code part for Leetcode
 
 class Solution:
     def hasCycle(self,head):
