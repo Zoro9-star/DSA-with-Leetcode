@@ -1,3 +1,15 @@
+# Ques No 234 - Palindrome Linked List
+
+# Problem statement:
+# Given the head of a singly linked list, return true if it is a or false otherwise.
+
+# Example 1:
+
+# Input: head = [1,2,2,1]
+# Output: true
+
+
+
 class Listnode:
     def __init__(self,val):
         self.val = val
@@ -11,7 +23,7 @@ n5 = Listnode(1)
 n1.next = n2 
 n2.next = n3
 n3.next = n4
-n4.next=n5
+n4.next = n5
 
 class Solution:
     def Palindrome(self,head):
