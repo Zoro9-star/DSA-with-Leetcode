@@ -41,7 +41,7 @@ n4.next = n5
 
 class Solution:
     def reorderList(self,head):
-        slow , fast = head , head
+        slow , fast = head , head  
         while fast is not None and fast.next is not None:
             slow = slow.next
             fast = fast.next.next
@@ -55,9 +55,10 @@ class Solution:
                 curr = temp
             return prev
         first = head
-        second = reverse(slow)
+        second = reverse(slow.next)
+        slow.next = None
 
-        while second:
+        while second and first:
             next1 = first.next
             next2 = second.next
 
